@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
+<title>Заезд в Одинцово — Remastered</title><link rel="stylesheet" href="style.css"></head><body>
+<script>window.showErr=function(m){var d=document.getElementById('err')||document.body.appendChild(Object.assign(document.createElement('div'),{id:'err'}));d.style.cssText='position:fixed;left:0;top:0;right:0;z-index:99;background:#400d;color:#fff;font:12px monospace;padding:6px;white-space:pre-wrap;pointer-events:none';d.textContent+=m+'\n'};addEventListener('error',function(e){showErr('ОШИБКА: '+e.message+' ('+(e.filename||'').split('/').pop()+':'+e.lineno+')')})</script>
+<div id="hud"><b id="sc"></b><span id="cb"></span><div id="nb"><i id="nf"></i></div><span id="am"></span><span id="kh"></span></div>
+<div id="hint">ТАП СПРАВА → ВЗЯТЬ ДРОБОВИК</div><canvas id="fx"></canvas>
+<div id="ctl"><button class="b" id="bl">◀</button><button class="b" id="br">▶</button><button class="b" id="brk">ТОРМОЗ</button><button class="b" id="nit">НИТРО</button><button class="b" id="vw">ВИД</button><button class="b" id="rl">R</button></div>
+<div id="ov"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>window.THREE||document.write('<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"><\/script>')</script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<script src="game.js"></script></body></html>
